@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+h1 {
+    color: #830f5c;
+}
+h2 {
+    color:crimson;
+}
+h3 {
+    color :green;
+}
+header {
+    background-color: #4caf89;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header .profession {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.projects .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.projects .project {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 30%;
+}
+
+.projects .project h3 {
+    margin-bottom: 1rem;
+}
+
+.projects .project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.projects .btn {
+    display: inline-block;
+    background-color: #032788;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.projects .btn:hover {
+    background-color: #aa0707;
+}
+
+.contact .social-links {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.contact .social-btn {
+    background-color: #700956;
+    color: white;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact .social-btn:hover {
+    background-color: #866f21;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
